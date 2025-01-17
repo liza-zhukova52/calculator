@@ -1,0 +1,37 @@
+.title {
+    font-size: 48px;
+    text-align: center;
+}
+.calculations {
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 20px;
+}
+.number-1,
+.number-2 {
+    min-height: 39px;
+    font-size: 20px;
+}
+.output {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.button-output {
+    font-size: 20px;
+}
+.answer-title {
+    font-size: 40px;
+}
+.answer {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 20px;
+}
+.result {
+    font-size: 40px;
+}
