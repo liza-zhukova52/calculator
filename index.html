@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
-    
+    <h1 class="title">
+        Калькулятор
+    </h1>
+    <div class="calculations">
+        <input type="number" class="number-1" placeholder="Введите число 1">
+        <form action="">
+            <label for="calculations-select">Выберите знак</label>
+            <select name="symbol" id="calculations-select">
+                <option value="plus">+</option>
+                <option value="minus">-</option>
+                <option value="division">÷</option>
+                <option value="multiplication">×</option>
+            </select>
+        </form>
+        <input type="number" class="number-2" placeholder="Введите число 2">
+    </div>
+    <button class="button-output">Вычислить</button>
+    <div class="answer">
+        <h4 class="answer-title">
+            Ответ:
+        </h4>
+        <p class="result"></p>
+    </div>
 </body>
 </html>
